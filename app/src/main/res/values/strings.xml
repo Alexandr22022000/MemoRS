@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MemoRS</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="text">Текст:</string>
+    <string name="name">Имя:</string>
+    <string name="add_file">Добавить файл</string>
+    <string name="add_foder">Добавить папку</string>
+    <string name="back">Назад</string>
+    <string name="save">Сохранить</string>
+    <string name="about">Об авторе</string>
+    <string name="save_image">Сохраненные изображения</string>
+    <string name="memo_name">Имя заметки</string>
+    <string name="memo_text">Текст заметки</string>
+    <string name="item_hide_images">Скрыть картинки</string>
+</resources>

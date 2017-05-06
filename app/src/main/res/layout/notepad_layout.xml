@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:ems="10"
+                    android:id="@+id/editText_name"
+                    android:hint="@string/memo_name"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout_box">
+
+            </LinearLayout>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:inputType="textMultiLine"
+                    android:scrollbars = "vertical"
+                    android:text=""
+                    android:ems="10"
+                    android:id="@+id/editText_text"
+                    android:gravity="top|left"
+                    android:hint="@string/memo_text"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/image_not_found"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image_big"
+            android:onClick="PressImage"
+            android:visibility="invisible"/>
+</RelativeLayout>

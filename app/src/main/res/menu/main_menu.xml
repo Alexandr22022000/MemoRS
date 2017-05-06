@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:icon="@mipmap/back"
+            android:title="@string/back"
+            android:id="@+id/back"
+            app:showAsAction="always"
+            android:orderInCategory="0"/>
+
+    <item
+            android:icon="@mipmap/add_folder"
+            android:title="@string/add_foder"
+            android:id="@+id/add_folder"
+            app:showAsAction="always"
+            android:orderInCategory="1"/>
+
+    <item
+            android:icon="@mipmap/add_file"
+            android:title="@string/add_file"
+            android:id="@+id/add_file"
+            app:showAsAction="always"
+            android:orderInCategory="2"/>
+
+    <item
+            android:id="@+id/save_image"
+            android:title="@string/save_image"
+            android:orderInCategory="3"/>
+
+    <item
+            android:id="@+id/creator"
+            android:title="@string/about"
+            android:orderInCategory="4"/>
+
+    <!--<item
+            android:title="Создание файловой системы"
+            android:id="@+id/first_run"
+            android:menuCategory="system"
+            tools:targetApi="honeycomb"/>
+
+    <item
+            android:title="Показать файлы в ситеме"
+            android:id="@+id/find_files"/>
+
+    <item
+            android:title="Удалить файловую систему"
+            android:id="@+id/del_oll_file"/>-->
+</menu>
